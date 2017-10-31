@@ -29,6 +29,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         TextView B = (TextView) findViewById(R.id.textView);
-        B.setText("Hi !!");
+        B.setText("Hello!!");
     }
 }
