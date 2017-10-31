@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View v)
                     {
                         TextView B = (TextView) findViewById(R.id.textView);
-                        B.setText("Bye !!");
+                        B.setText("Tata!!");
                     }
                 }
         );
