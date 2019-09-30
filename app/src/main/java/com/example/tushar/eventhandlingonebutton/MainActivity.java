@@ -1,5 +1,4 @@
 package com.example.tushar.eventhandlingonebutton;
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View v)
                     {
                         TextView B = (TextView) findViewById(R.id.textView);
-                        B.setText("Bye !!");
+                        B.setText("Bye Bye!!");
                     }
                 }
         );
@@ -29,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         TextView B = (TextView) findViewById(R.id.textView);
-        B.setText("Hi !!");
+        B.setText("Hello !");
     }
 }
