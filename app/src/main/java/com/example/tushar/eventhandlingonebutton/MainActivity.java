@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
                 new Button.OnClickListener(){
                     public void onClick(View v)
                     {
-                        TextView B = (TextView) findViewById(R.id.textView);
-                        B.setText("Tata!!");
+                        TextView A = (TextView) findViewById(R.id.textView);
+                        A.setText("Tata!!");
                     }
                 }
         );
