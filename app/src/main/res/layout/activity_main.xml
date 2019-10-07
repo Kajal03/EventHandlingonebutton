@@ -16,9 +16,9 @@
         android:text="@string/hello"
         android:textStyle="italic"
         android:textColor="#0D47A1"
-        android:layout_margin="130dp"
+        android:layout_margin="150dp"
         android:background="#BBDEFB"
-        android:textSize="40sp" />
+        android:textSize="50sp" />
 
     <Button
         android:id="@+id/button"

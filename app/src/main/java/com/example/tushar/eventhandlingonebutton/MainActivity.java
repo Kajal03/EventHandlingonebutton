@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
                     {
                         TextView B = (TextView) findViewById(R.id.textView);
                         B.setText("Bye Bye!!");
+                        TextView A = (TextView) findViewById(R.id.textView);
+                        A.setText("Tata!!");
                     }
                 }
         );
@@ -29,5 +31,6 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         TextView B = (TextView) findViewById(R.id.textView);
         B.setText("Hello !");
+        B.setText("Hey!!");
     }
 }
